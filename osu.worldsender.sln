@@ -1,0 +1,65 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{2A5FD0C0-DDFB-4AA7-A868-6B194B0FA230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "osu.we.DatabaseView", "osu.we.DatabaseView\osu.we.DatabaseView.csproj", "{4021C825-1D89-40ED-B662-B209494E5627}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Osu", "Osu", "{B8A2C432-BA67-4EAB-97F3-095754629FCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "osu.Game", "osu\osu.Game\osu.Game.csproj", "{0D3FBF8A-7464-4CF7-8C90-3E7886DF2D4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Osu-Framework", "Osu-Framework", "{D88018E1-5F9F-40E5-82C6-1F8151937F58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "osu.Framework", "osu\osu-framework\osu.Framework\osu.Framework.csproj", "{C76BF5B3-985E-4D39-95FE-97C9C879B83A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "osu.Framework.Desktop", "osu\osu-framework\osu.Framework.Desktop\osu.Framework.Desktop.csproj", "{65DC628F-A640-4111-AB35-3A5652BC1E17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "osu.Desktop", "osu\osu.Desktop\osu.Desktop.csproj", "{2A66DD92-ADB1-4994-89E2-C94E04ACDA0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Default|Any CPU = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4021C825-1D89-40ED-B662-B209494E5627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4021C825-1D89-40ED-B662-B209494E5627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4021C825-1D89-40ED-B662-B209494E5627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4021C825-1D89-40ED-B662-B209494E5627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4021C825-1D89-40ED-B662-B209494E5627}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{4021C825-1D89-40ED-B662-B209494E5627}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{0D3FBF8A-7464-4CF7-8C90-3E7886DF2D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D3FBF8A-7464-4CF7-8C90-3E7886DF2D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D3FBF8A-7464-4CF7-8C90-3E7886DF2D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D3FBF8A-7464-4CF7-8C90-3E7886DF2D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D3FBF8A-7464-4CF7-8C90-3E7886DF2D4D}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D3FBF8A-7464-4CF7-8C90-3E7886DF2D4D}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{C76BF5B3-985E-4D39-95FE-97C9C879B83A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C76BF5B3-985E-4D39-95FE-97C9C879B83A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C76BF5B3-985E-4D39-95FE-97C9C879B83A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C76BF5B3-985E-4D39-95FE-97C9C879B83A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C76BF5B3-985E-4D39-95FE-97C9C879B83A}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{C76BF5B3-985E-4D39-95FE-97C9C879B83A}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{65DC628F-A640-4111-AB35-3A5652BC1E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65DC628F-A640-4111-AB35-3A5652BC1E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65DC628F-A640-4111-AB35-3A5652BC1E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65DC628F-A640-4111-AB35-3A5652BC1E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65DC628F-A640-4111-AB35-3A5652BC1E17}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{65DC628F-A640-4111-AB35-3A5652BC1E17}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{2A66DD92-ADB1-4994-89E2-C94E04ACDA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A66DD92-ADB1-4994-89E2-C94E04ACDA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A66DD92-ADB1-4994-89E2-C94E04ACDA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A66DD92-ADB1-4994-89E2-C94E04ACDA0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A66DD92-ADB1-4994-89E2-C94E04ACDA0D}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A66DD92-ADB1-4994-89E2-C94E04ACDA0D}.Default|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4021C825-1D89-40ED-B662-B209494E5627} = {2A5FD0C0-DDFB-4AA7-A868-6B194B0FA230}
+		{0D3FBF8A-7464-4CF7-8C90-3E7886DF2D4D} = {B8A2C432-BA67-4EAB-97F3-095754629FCC}
+		{C76BF5B3-985E-4D39-95FE-97C9C879B83A} = {D88018E1-5F9F-40E5-82C6-1F8151937F58}
+		{65DC628F-A640-4111-AB35-3A5652BC1E17} = {D88018E1-5F9F-40E5-82C6-1F8151937F58}
+		{2A66DD92-ADB1-4994-89E2-C94E04ACDA0D} = {B8A2C432-BA67-4EAB-97F3-095754629FCC}
+	EndGlobalSection
+EndGlobal
